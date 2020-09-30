@@ -33,7 +33,7 @@
 
 文件|构成|说明
 :-:|:-|:-
-`babel.config.json`|`@babel/preset-env`|使用 babel 推荐预设配置按需引入
+`babel.config.json`|`@babel/preset-env`|使用 babel 推荐预设配置按需引入填充
 `postcss.config.js`|`postcss-preset-env`|使用 postcss 推荐预设，其会自动使用 autoprefixer
 `webpack.base.js`|`webpack`|基础 webpack 配置，作为 merge 基础
 `webpack.config.js`|`webpack`|标准 webpack 配置，适合小型库，对 css 内联减少引入开支
@@ -58,7 +58,7 @@ css-inline|`style-loader`|支持 css 内联的 loader
 
 #### 工具库支持
 
-当你需要构建对外暴露对象或方法的工具库时，需要配置 `library` ：
+当你需要构建对外暴露对象或方法的工具库时，需要配置 `output.library` 
 
 `library` ：对外暴露的对象或方法的名称，未来将使用此名称调用入口的导出
 
@@ -79,4 +79,4 @@ css-inline|`style-loader`|支持 css 内联的 loader
 
 ### Vue sfc Support
 
-若要使用 Vue2.0 作为运行支持同时编写 `.vue` 组件，请移步 vue2 分支。
+若要使用 Vue2.0 作为运行支持同时编写 `.vue` 组件，请移步 [vue2](https://github.com/fz6m/webpack-base-template/tree/vue2) 分支。
