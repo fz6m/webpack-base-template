@@ -80,3 +80,5 @@ css-inline|`style-loader`|支持 css 内联的 loader
 ### Vue sfc Support
 
 若要使用 Vue2.0 作为运行支持同时编写 `.vue` 组件，请移步 [vue2](https://github.com/fz6m/webpack-base-template/tree/vue2) 分支。
+
+使用 Vue3.0 请移步 [vue3](https://github.com/fz6m/webpack-base-template/tree/vue3) 分支。
